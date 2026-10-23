@@ -1,3 +1,5 @@
+# Python
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -49,8 +51,15 @@ coverage.xml
 *.py.cover
 *.lcov
 .hypothesis/
+*.pyc
 .pytest_cache/
 cover/
+
+# Local data (chat history, vector index, uploaded files)
+data/chroma/
+data/chat_history.db
+data/documents/*
+!data/documents/.gitkeep
 
 # Translations
 *.mo
@@ -155,6 +164,7 @@ activemq-data/
 .venv
 env/
 venv/
+.venv/
 ENV/
 env.bak/
 venv.bak/
@@ -182,6 +192,12 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
 # PyCharm
 #   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
