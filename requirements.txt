@@ -1,0 +1,11 @@
+# Runtime dependencies (minimum versions; run `pip freeze > requirements.lock.txt`
+# after a successful install if you want exact pins for reproducible builds).
+python-dotenv>=1.0
+langchain>=1.0
+langchain-core>=1.0
+langchain-groq>=1.0
+ddgs>=9.0
+requests>=2.31
+chromadb>=1.0
+pypdf>=5.0
+streamlit>=1.40
