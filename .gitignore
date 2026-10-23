@@ -60,6 +60,7 @@ data/chroma/
 data/chat_history.db
 data/documents/*
 !data/documents/.gitkeep
+notes.txt
 
 # Translations
 *.mo
